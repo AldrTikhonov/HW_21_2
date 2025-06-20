@@ -4,7 +4,7 @@ CYRRENT_DIR = os.path.dirname(__file__)
 
 
 def open_html(file):
-
+    """ Функция для считывания файла"""
     file_dir = os.path.join(CYRRENT_DIR, '..', file)
 
     with open(file_dir, 'r+') as f:
